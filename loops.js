@@ -68,14 +68,13 @@ const names = [
   ////////////////////////////////
   
   //simpleste loppen Joakim kan tenke på:
-  //! IKKE SETT KROKODILLEGAPEN > !!!!
+  //! IKKE SETT KROKODILLEGAPEN åpnet mot venstre: > !!!! Men det kan gjøres om: i--
   for (let i = 0; i < 10; i++) {
     console.log(i);
   }
   
   ///////////////////////////////
   
-  // Oppgave 1: skriv om const greeter til en funksjon greeter
   
   anotherArray = ["tom", "sarah", "jimmy"];
   
@@ -92,8 +91,8 @@ const names = [
   
   console.log(wordCleaner(anotherArray));
   
-  // oppgave 2: Endre på funksjonen over slik at bare første bokstav blir uppercase;
-  
+
+
   let randomNum = Math.floor(Math.random() * 9) + 1;
   
   let x = 0;
@@ -104,7 +103,6 @@ const names = [
     console.log("trying.. " + x);
   }
   
-  // oppgave 3: skriv om while-løkken til en for-løkke
   
   const stringArrayReverser = (arr) => {
     if (arr.length < 10 || arr.length > 100)
@@ -133,7 +131,7 @@ const names = [
     ])
   );
   
-  // Oppgave 4 (VANSKELIG): fortsett på funksjonen over for å gjøre uppercase på første bokstav (eks: "Nomel")
+  // Prøv selv: fortsett på funksjonen over for å gjøre uppercase på første bokstav (eks: "Nomel")
   
   makeNumberArray = (size, maxNum) => {
     let numArray = [];
@@ -145,8 +143,7 @@ const names = [
   
   console.log(makeNumberArray(10, 100));
   
-  // Oppgave 5: skriv om funksjonen over til å bruke en while-løkke
-  
+
   const maxFinder = (arr) => {
     let biggest = 0;
     for (let val of arr) {
@@ -157,7 +154,6 @@ const names = [
   
   console.log(maxFinder(makeNumberArray(2, 10)));
   
-  // Oppgave 6: skriv om funksjonen over til å bruke en while-løkke
   
   function generatePassword(len) {
     let password = "";
@@ -183,15 +179,16 @@ const names = [
     console.log(i + 1);
   }
   
-  // Oppgave 7: Lag en funksjon som returnerer noen tilfeldige lotto tall (hint: bruk 2 separate funksjoner som kombineres på slutten i en konsoll logg)
   
   // arrow funksjoner:
+  // Dette er en vanlig funksjon:
   function bob() {
     console.log("jamican me crazy");
   }
   
   bob();
   
+  // Dette er en arrow funksjon:
   const marley = () => {
     console.log("jamican me crazy");
   };
@@ -208,8 +205,8 @@ const names = [
   noeannet();
   
   function noeAnnet() {
-    let enAnnetArray = ["fire", "fem", "seks"];
-    return enAnnetArray;
+    let etAnnetArray = ["fire", "fem", "seks"];
+    return etAnnetArray;
   }
   
   console.log(noeAnnet());
